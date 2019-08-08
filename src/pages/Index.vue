@@ -13,14 +13,19 @@
 <script>
 export default {
   metaInfo: {
-    title: "Arjun says Howdy!"
+    title: "Howdy!"
   }
 };
 </script>
 
 <style>
+html,
 body {
   overflow: hidden;
+}
+
+body {
+  position: relative;
 }
 
 .video {
