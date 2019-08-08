@@ -13,7 +13,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Arjun says Howdy!"
+    title: "Howdy!"
   }
 };
 </script>
