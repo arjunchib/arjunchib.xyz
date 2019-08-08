@@ -19,8 +19,13 @@ export default {
 </script>
 
 <style>
+html,
 body {
   overflow: hidden;
+}
+
+body {
+  position: relative;
 }
 
 .video {
