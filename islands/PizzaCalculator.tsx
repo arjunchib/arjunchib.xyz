@@ -20,9 +20,9 @@ export default function PizzaCalculator() {
   const table = useComputed(() => {
     return Object.entries(baseIngredients).map(([k, v]) => {
       return (
-        <tr class="odd:dark:bg-gray-900">
-          <th class="text-left py-1 px-2" scope="row">{k}</th>
-          <td class="text-right py-1 px-2">
+        <tr class="odd:dark:bg-gray-900 rounded">
+          <th class="text-left py-1 px-2 rounded-l" scope="row">{k}</th>
+          <td class="text-right py-1 px-2 rounded-r">
             {round(v * pizzas.value)}g
           </td>
         </tr>
@@ -37,6 +37,7 @@ export default function PizzaCalculator() {
         <input
           class="rounded float-right dark:bg-gray-900 px-2 py-1 w-20"
           type="number"
+          inputMode="numeric"
           value={pizzas.value}
           onInput={onInput}
           min="1"
