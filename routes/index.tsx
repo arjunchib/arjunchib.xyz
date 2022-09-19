@@ -2,7 +2,7 @@ import { Page } from "../components/Page.tsx";
 
 export default function Home() {
   return (
-    <Page title="Arjun’s World" icon="🌌">
+    <Page title="Arjun’s World" icon="🌌" back={false}>
       <nav class="my-3 pl-5">
         <ul class="list-disc">
           <li>
