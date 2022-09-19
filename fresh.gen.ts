@@ -3,14 +3,16 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import config from "./deno.json" assert { type: "json" };
-import * as $0 from "./routes/index.tsx";
-import * as $1 from "./routes/pizza.tsx";
+import * as $0 from "./routes/favicon.ts";
+import * as $1 from "./routes/index.tsx";
+import * as $2 from "./routes/pizza.tsx";
 import * as $$0 from "./islands/PizzaCalculator.tsx";
 
 const manifest = {
   routes: {
-    "./routes/index.tsx": $0,
-    "./routes/pizza.tsx": $1,
+    "./routes/favicon.ts": $0,
+    "./routes/index.tsx": $1,
+    "./routes/pizza.tsx": $2,
   },
   islands: {
     "./islands/PizzaCalculator.tsx": $$0,

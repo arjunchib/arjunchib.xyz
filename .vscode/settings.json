@@ -3,6 +3,7 @@
   "deno.lint": true,
   "editor.defaultFormatter": "denoland.vscode-deno",
   "cSpell.words": [
+    "imagescript",
     "preact",
     "twind"
   ]
