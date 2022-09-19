@@ -32,7 +32,7 @@ export function Page(props: PageProps) {
         />
         <title>{props.title}</title>
       </Head>
-      <main class="dark:bg-gray-800 dark:text-white min-h-screen p-5">
+      <main class="dark:bg-gray-800 dark:text-white min-h-[100dvh] p-5">
         {back}
         <h1 class="font-serif text-2xl font-bold">
           {props.title} {props.icon}
