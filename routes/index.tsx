@@ -10,6 +10,11 @@ export default function Home() {
               <span class="underline">Pizza</span> 🍕
             </a>
           </li>
+          <li>
+            <a href="/braves">
+              <span class="underline">Braves Radio</span> 📻
+            </a>
+          </li>
         </ul>
       </nav>
     </Page>
