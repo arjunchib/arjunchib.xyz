@@ -4,7 +4,7 @@
     "city": "Auburn",
     "station": "WAUD-AM",
     "frequency": "1230",
-    "dma": "Columbus, GA",
+    "dma": "",
     "coordinates": [
       32.60907745,
       -85.4817276
@@ -15,7 +15,7 @@
     "city": "Auburn",
     "station": "W266BJ-FM",
     "frequency": "101.1",
-    "dma": "Columbus, GA",
+    "dma": "",
     "coordinates": [
       32.60907745,
       -85.4817276
@@ -26,7 +26,7 @@
     "city": "Birmingham-Hoover",
     "station": "WJOX-AM",
     "frequency": "690",
-    "dma": "Birmingham",
+    "dma": "",
     "coordinates": [
       33.52285767,
       -86.80770874
@@ -37,7 +37,7 @@
     "city": "Birmingham-Tuscaloosa",
     "station": "WJOX-FM",
     "frequency": "94.5",
-    "dma": "Birmingham",
+    "dma": "",
     "coordinates": [
       33.52285767,
       -86.80770874
@@ -48,7 +48,7 @@
     "city": "Birmingham-Tuscaloosa",
     "station": "WJQX-FM",
     "frequency": "100.5",
-    "dma": "Birmingham",
+    "dma": "",
     "coordinates": [
       33.52285767,
       -86.80770874
@@ -59,7 +59,7 @@
     "city": "Brewton",
     "station": "WKNU-FM",
     "frequency": "106.3",
-    "dma": "Mobile-Pensacola",
+    "dma": "",
     "coordinates": [
       31.11283493,
       -87.07157135
@@ -67,10 +67,21 @@
   },
   {
     "state": "AL",
+    "city": "Bridgeport",
+    "station": "WJTW-AM",
+    "frequency": "1480",
+    "dma": "",
+    "coordinates": [
+      34.9474678,
+      -85.72547913
+    ]
+  },
+  {
+    "state": "AL",
     "city": "Cullman",
     "station": "WKUL-FM",
     "frequency": "92.1",
-    "dma": "Birmingham",
+    "dma": "",
     "coordinates": [
       34.17378998,
       -86.84300995
@@ -81,7 +92,7 @@
     "city": "Florence",
     "station": "WYTK-FM",
     "frequency": "93.9",
-    "dma": "Huntsville-Decatur-Florence",
+    "dma": "",
     "coordinates": [
       34.80131531,
       -87.67326355
@@ -92,7 +103,7 @@
     "city": "Foley",
     "station": "WHEP-AM",
     "frequency": "1310",
-    "dma": "Mobile-Pensacola",
+    "dma": "",
     "coordinates": [
       30.40639877,
       -87.6820755
@@ -103,7 +114,7 @@
     "city": "Foley",
     "station": "W223AX-FM",
     "frequency": "92.5",
-    "dma": "Mobile-Pensacola",
+    "dma": "",
     "coordinates": [
       30.40639877,
       -87.6820755
@@ -111,21 +122,10 @@
   },
   {
     "state": "AL",
-    "city": "Gadsden",
-    "station": "WKXX-FM",
-    "frequency": "102.9",
-    "dma": "Birmingham",
-    "coordinates": [
-      34.01157761,
-      -86.02117157
-    ]
-  },
-  {
-    "state": "AL",
     "city": "Guntersville-Albertville",
     "station": "WTWX-FM",
     "frequency": "95.9",
-    "dma": "Huntsville-Decatur-Florence",
+    "dma": "",
     "coordinates": [
       34.34630585,
       -86.30337524
@@ -136,7 +136,7 @@
     "city": "Huntsville",
     "station": "WZZN-FM",
     "frequency": "97.7",
-    "dma": "Huntsville-Decatur-Florence",
+    "dma": "",
     "coordinates": [
       34.72954178,
       -86.58530426
@@ -147,7 +147,7 @@
     "city": "Oxford-Anniston",
     "station": "WVOK-AM",
     "frequency": "1580",
-    "dma": "Birmingham",
+    "dma": "",
     "coordinates": [
       33.60506523,
       -85.87133218
@@ -158,7 +158,7 @@
     "city": "Scottsboro",
     "station": "WWIC-AM",
     "frequency": "1050",
-    "dma": "Huntsville-Decatur-Florence",
+    "dma": "",
     "coordinates": [
       34.67359161,
       -86.03473663
@@ -166,10 +166,32 @@
   },
   {
     "state": "AL",
+    "city": "Sylacauga",
+    "station": "WFEB-AM",
+    "frequency": "1340",
+    "dma": "",
+    "coordinates": [
+      33.16937637,
+      -86.26252747
+    ]
+  },
+  {
+    "state": "AL",
+    "city": "Sylacauga",
+    "station": "W265DV-FM",
+    "frequency": "100.9",
+    "dma": "",
+    "coordinates": [
+      33.16937637,
+      -86.26252747
+    ]
+  },
+  {
+    "state": "AL",
     "city": "Thomasville-Jackson",
     "station": "WJDB-FM",
     "frequency": "95.5",
-    "dma": "Mobile-Pensacola",
+    "dma": "",
     "coordinates": [
       31.52067184,
       -87.89582062
@@ -180,7 +202,7 @@
     "city": "Troy",
     "station": "WTBF-AM",
     "frequency": "970",
-    "dma": "Dothan, AL",
+    "dma": "",
     "coordinates": [
       31.81009865,
       -85.97215271
@@ -191,7 +213,7 @@
     "city": "Troy",
     "station": "W242DA-FM",
     "frequency": "96.3",
-    "dma": "Dothan, AL",
+    "dma": "",
     "coordinates": [
       31.81009865,
       -85.97215271
@@ -202,7 +224,7 @@
     "city": "Crestview",
     "station": "WJSB-AM",
     "frequency": "1050",
-    "dma": "Mobile-Pensacola",
+    "dma": "",
     "coordinates": [
       30.74964905,
       -86.56265259
@@ -213,7 +235,7 @@
     "city": "Crestview",
     "station": "W266DF-FM",
     "frequency": "101.1",
-    "dma": "Mobile-Pensacola",
+    "dma": "",
     "coordinates": [
       30.74964905,
       -86.56265259
@@ -224,10 +246,43 @@
     "city": "Ft. Walton Beach-Destin",
     "station": "WAAZ-FM",
     "frequency": "104.7",
-    "dma": "Mobile-Pensacola",
+    "dma": "",
     "coordinates": [
-      30.39825575,
-      -86.49076135
+      30.38398552,
+      -86.48284149
+    ]
+  },
+  {
+    "state": "FL",
+    "city": "Marianna",
+    "station": "WTOT-AM",
+    "frequency": "980",
+    "dma": "",
+    "coordinates": [
+      30.77553368,
+      -85.23905182
+    ]
+  },
+  {
+    "state": "FL",
+    "city": "Marianna",
+    "station": "W271DM",
+    "frequency": "102.1",
+    "dma": "",
+    "coordinates": [
+      30.77553368,
+      -85.23905182
+    ]
+  },
+  {
+    "state": "FL",
+    "city": "Port St. Joe",
+    "station": "WVLQ-FM",
+    "frequency": "101.9",
+    "dma": "",
+    "coordinates": [
+      29.80955887,
+      -85.30250549
     ]
   },
   {
@@ -235,7 +290,7 @@
     "city": "Panama City",
     "station": "WGSX-FM",
     "frequency": "104.3",
-    "dma": "Panama City",
+    "dma": "",
     "coordinates": [
       30.18521118,
       -85.73083496
@@ -246,7 +301,7 @@
     "city": "Adairsville",
     "station": "W269CC-FM",
     "frequency": "101.7",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.36980057,
       -84.92767334
@@ -257,7 +312,7 @@
     "city": "Albany",
     "station": "WALG-AM",
     "frequency": "1590",
-    "dma": "Albany, GA",
+    "dma": "",
     "coordinates": [
       31.57846069,
       -84.15587616
@@ -268,7 +323,7 @@
     "city": "Albany",
     "station": "W257ED-FM",
     "frequency": "99.3",
-    "dma": "Albany, GA",
+    "dma": "",
     "coordinates": [
       31.57846069,
       -84.15587616
@@ -279,7 +334,7 @@
     "city": "Americus",
     "station": "WISK-FM",
     "frequency": "98.7",
-    "dma": "Columbus, GA",
+    "dma": "",
     "coordinates": [
       32.07328796,
       -84.23255157
@@ -290,7 +345,7 @@
     "city": "Athens",
     "station": "WRFC-AM",
     "frequency": "960",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.95741272,
       -83.37680054
@@ -301,7 +356,7 @@
     "city": "Atlanta",
     "station": "WCNN-AM",
     "frequency": "680",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.7485466,
       -84.39150238
@@ -312,7 +367,7 @@
     "city": "Atlanta",
     "station": "W229AG-FM",
     "frequency": "93.7",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.7485466,
       -84.39150238
@@ -323,7 +378,7 @@
     "city": "Brunswick-Saint Simons",
     "station": "WSFN-AM",
     "frequency": "790",
-    "dma": "Jacksonville, FL",
+    "dma": "",
     "coordinates": [
       31.13614273,
       -81.46704865
@@ -334,7 +389,7 @@
     "city": "Brunswick-Saint Simons",
     "station": "W279BC-FM",
     "frequency": "103.7",
-    "dma": "Jacksonville, FL",
+    "dma": "",
     "coordinates": [
       31.13614273,
       -81.46704865
@@ -345,7 +400,7 @@
     "city": "Calhoun",
     "station": "WJTH-AM",
     "frequency": "900",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.50254822,
       -84.95128632
@@ -356,7 +411,7 @@
     "city": "Carrollton",
     "station": "WLBB-AM",
     "frequency": "1330",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.58031082,
       -85.07758331
@@ -367,7 +422,7 @@
     "city": "Carrollton",
     "station": "W292EW-FM",
     "frequency": "106.3",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.58031082,
       -85.07758331
@@ -378,7 +433,7 @@
     "city": "Carrollton",
     "station": "WBTR-FM",
     "frequency": "92.1",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.58031082,
       -85.07758331
@@ -389,7 +444,7 @@
     "city": "Cartersville",
     "station": "WBHF-AM",
     "frequency": "1450",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.16393661,
       -84.80003357
@@ -400,7 +455,7 @@
     "city": "Cartersville",
     "station": "W262CD-FM",
     "frequency": "100.3",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.16393661,
       -84.80003357
@@ -411,7 +466,7 @@
     "city": "Claxton",
     "station": "WCLA-AM",
     "frequency": "1470",
-    "dma": "Savannah",
+    "dma": "",
     "coordinates": [
       32.16108704,
       -81.90407562
@@ -422,7 +477,7 @@
     "city": "Claxton",
     "station": "W229AJ-FM",
     "frequency": "93.7",
-    "dma": "Savannah",
+    "dma": "",
     "coordinates": [
       32.16108704,
       -81.90407562
@@ -431,9 +486,20 @@
   {
     "state": "GA",
     "city": "Columbus",
+    "station": "WLTC-HD2",
+    "frequency": "105.5",
+    "dma": "",
+    "coordinates": [
+      32.46668243,
+      -84.99040222
+    ]
+  },
+  {
+    "state": "GA",
+    "city": "Columbus",
     "station": "W288CV-FM",
     "frequency": "105.5",
-    "dma": "Columbus, GA",
+    "dma": "",
     "coordinates": [
       32.46668243,
       -84.99040222
@@ -444,10 +510,10 @@
     "city": "Cornelia-NE Georgia",
     "station": "WCON-FM",
     "frequency": "99.3",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
-      34.51541242,
-      -83.52940398
+      32.64828873,
+      -83.44437408
     ]
   },
   {
@@ -455,7 +521,7 @@
     "city": "Dalton",
     "station": "WBLJ-AM",
     "frequency": "1230",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       34.7715416,
       -84.97177887
@@ -466,7 +532,7 @@
     "city": "Dalton",
     "station": "WDAL-AM",
     "frequency": "1430",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       34.7715416,
       -84.97177887
@@ -477,7 +543,7 @@
     "city": "Dalton",
     "station": "WYYU-FM",
     "frequency": "104.5",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       34.7715416,
       -84.97177887
@@ -488,7 +554,7 @@
     "city": "Donalsonville-Bainbridge",
     "station": "WGMK-FM",
     "frequency": "106.3",
-    "dma": "Tallahassee, FL",
+    "dma": "",
     "coordinates": [
       31.04424286,
       -84.8791275
@@ -499,7 +565,7 @@
     "city": "Douglas",
     "station": "WPNG-FM",
     "frequency": "101.9",
-    "dma": "Douglas, GA",
+    "dma": "",
     "coordinates": [
       31.50886536,
       -82.8503952
@@ -510,7 +576,7 @@
     "city": "Dublin",
     "station": "WDBG-HD2",
     "frequency": "103.1",
-    "dma": "Macon, GA",
+    "dma": "",
     "coordinates": [
       32.53995895,
       -82.90454865
@@ -521,7 +587,7 @@
     "city": "Dublin",
     "station": "W271CI-FM",
     "frequency": "102.1",
-    "dma": "Macon, GA",
+    "dma": "",
     "coordinates": [
       32.53995895,
       -82.90454865
@@ -532,7 +598,7 @@
     "city": "Ellijay",
     "station": "WLJA-FM",
     "frequency": "101.1",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.69506836,
       -84.48247528
@@ -543,7 +609,7 @@
     "city": "Ellijay",
     "station": "WPGY-AM",
     "frequency": "1580",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.69506836,
       -84.48247528
@@ -554,7 +620,7 @@
     "city": "Ellijay",
     "station": "W229CE-FM",
     "frequency": "93.7",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.69506836,
       -84.48247528
@@ -565,7 +631,7 @@
     "city": "Fort Valley",
     "station": "WXKO-AM",
     "frequency": "1150",
-    "dma": "Macon, GA",
+    "dma": "",
     "coordinates": [
       32.55357361,
       -83.88661194
@@ -576,7 +642,7 @@
     "city": "Gainesville",
     "station": "WGGA-AM",
     "frequency": "1240",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.2987709,
       -83.82962799
@@ -587,7 +653,7 @@
     "city": "Gainesville",
     "station": "W233CO-FM",
     "frequency": "94.5",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.2987709,
       -83.82962799
@@ -598,7 +664,7 @@
     "city": "Greensboro",
     "station": "WDDK-FM",
     "frequency": "103.9",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.57593536,
       -83.18262482
@@ -609,7 +675,7 @@
     "city": "Griffin",
     "station": "WKEU-AM",
     "frequency": "1450",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.24443817,
       -84.2639389
@@ -620,7 +686,7 @@
     "city": "Griffin",
     "station": "W272DM-FM",
     "frequency": "102.3",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.24443817,
       -84.2639389
@@ -631,7 +697,7 @@
     "city": "Hiawassee",
     "station": "WJUL-AM",
     "frequency": "1230",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.94896698,
       -83.75749969
@@ -642,7 +708,7 @@
     "city": "Hiawassee",
     "station": "W249DB-FM",
     "frequency": "97.7",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.94896698,
       -83.75749969
@@ -653,7 +719,7 @@
     "city": "Jesup",
     "station": "WLOP-AM",
     "frequency": "1370",
-    "dma": "Savannah",
+    "dma": "",
     "coordinates": [
       31.60719299,
       -81.88532257
@@ -664,7 +730,7 @@
     "city": "Jesup",
     "station": "WIFO-FM",
     "frequency": "105.5",
-    "dma": "Savannah",
+    "dma": "",
     "coordinates": [
       31.60719299,
       -81.88532257
@@ -675,7 +741,7 @@
     "city": "La Grange",
     "station": "WTRP-AM",
     "frequency": "620",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.03874207,
       -85.0296402
@@ -686,7 +752,7 @@
     "city": "La Grange",
     "station": "W255DP-FM",
     "frequency": "98.9",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.03874207,
       -85.0296402
@@ -697,7 +763,7 @@
     "city": "Louisville",
     "station": "WPEH-AM",
     "frequency": "1420",
-    "dma": "Augusta, GA",
+    "dma": "",
     "coordinates": [
       32.99998093,
       -82.40921783
@@ -708,7 +774,7 @@
     "city": "Louisville",
     "station": "WPEH-FM",
     "frequency": "92.1",
-    "dma": "Augusta, GA",
+    "dma": "",
     "coordinates": [
       32.99998093,
       -82.40921783
@@ -719,7 +785,7 @@
     "city": "Macon",
     "station": "W226BZ-FM",
     "frequency": "93.1",
-    "dma": "Macon, GA",
+    "dma": "",
     "coordinates": [
       32.83809662,
       -83.67050934
@@ -730,7 +796,7 @@
     "city": "Metter",
     "station": "WHCG-AM",
     "frequency": "1360",
-    "dma": "Savannah",
+    "dma": "",
     "coordinates": [
       32.39722061,
       -82.06013489
@@ -741,7 +807,7 @@
     "city": "Metter",
     "station": "W255AT-FM",
     "frequency": "98.9",
-    "dma": "Savannah",
+    "dma": "",
     "coordinates": [
       32.39722061,
       -82.06013489
@@ -752,7 +818,7 @@
     "city": "Milledgeville",
     "station": "WMVG-AM",
     "frequency": "1450",
-    "dma": "Macon",
+    "dma": "",
     "coordinates": [
       33.08024216,
       -83.23205566
@@ -763,18 +829,7 @@
     "city": "Milledgeville",
     "station": "W283CZ-FM",
     "frequency": "104.5",
-    "dma": "Macon",
-    "coordinates": [
-      33.08024216,
-      -83.23205566
-    ]
-  },
-  {
-    "state": "GA",
-    "city": "Milledgeville",
-    "station": "WKZR-FM",
-    "frequency": "102.3",
-    "dma": "Macon",
+    "dma": "",
     "coordinates": [
       33.08024216,
       -83.23205566
@@ -785,7 +840,7 @@
     "city": "Monroe",
     "station": "WKUN-AM",
     "frequency": "1490",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.79475784,
       -83.71320343
@@ -796,7 +851,7 @@
     "city": "Monroe",
     "station": "W273DL",
     "frequency": "102.5",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.79475784,
       -83.71320343
@@ -807,7 +862,7 @@
     "city": "Moultrie",
     "station": "WMTM-AM",
     "frequency": "1300",
-    "dma": "Albany, GA",
+    "dma": "",
     "coordinates": [
       31.17993355,
       -83.78882599
@@ -818,7 +873,7 @@
     "city": "Moultrie",
     "station": "W286BO-FM",
     "frequency": "105.1",
-    "dma": "Tallahassee, FL",
+    "dma": "",
     "coordinates": [
       31.17993355,
       -83.78882599
@@ -829,10 +884,10 @@
     "city": "Pelham-Camilla",
     "station": "WQLI-FM",
     "frequency": "92.3",
-    "dma": "Tallahassee, FL",
+    "dma": "",
     "coordinates": [
-      31.12755585,
-      -84.15518188
+      31.16647783,
+      -84.1912581
     ]
   },
   {
@@ -840,7 +895,7 @@
     "city": "Pinehurst",
     "station": "WCEH-FM",
     "frequency": "98.3",
-    "dma": "Macon, GA",
+    "dma": "",
     "coordinates": [
       32.19509125,
       -83.76013184
@@ -851,7 +906,7 @@
     "city": "Rochelle",
     "station": "WWKM-FM",
     "frequency": "93.1",
-    "dma": "Macon",
+    "dma": "",
     "coordinates": [
       31.95085907,
       -83.45629883
@@ -862,7 +917,7 @@
     "city": "Rome",
     "station": "WLAQ-AM",
     "frequency": "1410",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.2604599,
       -85.18062592
@@ -873,7 +928,7 @@
     "city": "Rome",
     "station": "W245DG-FM",
     "frequency": "96.9",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       34.2604599,
       -85.18062592
@@ -884,7 +939,7 @@
     "city": "Sandersville",
     "station": "WSNT-FM",
     "frequency": "99.9",
-    "dma": "Macon, GA",
+    "dma": "",
     "coordinates": [
       32.98141861,
       -82.81105042
@@ -895,7 +950,7 @@
     "city": "Savannah",
     "station": "WSEG-AM",
     "frequency": "1400",
-    "dma": "Savannah, GA",
+    "dma": "",
     "coordinates": [
       32.08060837,
       -81.09009552
@@ -906,7 +961,7 @@
     "city": "Savannah",
     "station": "W282AR-FM",
     "frequency": "104.3",
-    "dma": "Savannah, GA",
+    "dma": "",
     "coordinates": [
       32.08060837,
       -81.09009552
@@ -917,7 +972,7 @@
     "city": "Swainsboro",
     "station": "WJAT-AM",
     "frequency": "800",
-    "dma": "Augusta, GA",
+    "dma": "",
     "coordinates": [
       32.59690475,
       -82.3338623
@@ -928,7 +983,7 @@
     "city": "Swainsboro",
     "station": "W259AK-FM",
     "frequency": "99.7",
-    "dma": "Augusta, GA",
+    "dma": "",
     "coordinates": [
       32.59690475,
       -82.3338623
@@ -939,7 +994,7 @@
     "city": "Thomaston",
     "station": "WTGA-FM",
     "frequency": "101.1",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       32.88718033,
       -84.32623291
@@ -950,7 +1005,7 @@
     "city": "Thomasville",
     "station": "WPAX-AM",
     "frequency": "1240",
-    "dma": "Tallahassee, FL",
+    "dma": "",
     "coordinates": [
       30.83552551,
       -83.97838593
@@ -961,7 +1016,7 @@
     "city": "Thomasville",
     "station": "W279BD-FM",
     "frequency": "103.7",
-    "dma": "Tallahassee, FL",
+    "dma": "",
     "coordinates": [
       30.83552551,
       -83.97838593
@@ -972,7 +1027,7 @@
     "city": "Trenton",
     "station": "WKWN-AM",
     "frequency": "1420",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       34.87192535,
       -85.50923157
@@ -983,7 +1038,7 @@
     "city": "Trenton",
     "station": "W267CX-FM",
     "frequency": "101.3",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       34.87192535,
       -85.50923157
@@ -994,7 +1049,7 @@
     "city": "Trenton",
     "station": "W291CF-FM",
     "frequency": "106.1",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       34.87192535,
       -85.50923157
@@ -1005,7 +1060,7 @@
     "city": "Valdosta",
     "station": "WJEM-AM",
     "frequency": "1150",
-    "dma": "Valdosta, GA",
+    "dma": "",
     "coordinates": [
       30.83075333,
       -83.27882385
@@ -1016,7 +1071,7 @@
     "city": "Valdosta",
     "station": "W232DB-FM",
     "frequency": "94.3",
-    "dma": "Valdosta, GA",
+    "dma": "",
     "coordinates": [
       30.83075333,
       -83.27882385
@@ -1027,7 +1082,7 @@
     "city": "Vidalia",
     "station": "WVOP-AM",
     "frequency": "970",
-    "dma": "Savannah, GA",
+    "dma": "",
     "coordinates": [
       32.21884155,
       -82.41244507
@@ -1038,7 +1093,7 @@
     "city": "Vidalia",
     "station": "WYUM-FM",
     "frequency": "101.7",
-    "dma": "Savannah, GA",
+    "dma": "",
     "coordinates": [
       32.21884155,
       -82.41244507
@@ -1049,7 +1104,7 @@
     "city": "Warner Robins",
     "station": "W290BD-FM",
     "frequency": "105.9",
-    "dma": "Macon, GA",
+    "dma": "",
     "coordinates": [
       32.62918854,
       -83.6129303
@@ -1060,10 +1115,10 @@
     "city": "Waycross-Blackshear",
     "station": "WFNS-AM",
     "frequency": "1350",
-    "dma": "Jacksonville, FL",
+    "dma": "",
     "coordinates": [
-      31.235759,
-      -82.364431
+      34.07442621,
+      -83.87346609
     ]
   },
   {
@@ -1071,10 +1126,10 @@
     "city": "Waycross-Blackshear",
     "station": "W253CI-FM",
     "frequency": "98.5",
-    "dma": "Jacksonville, FL",
+    "dma": "",
     "coordinates": [
-      31.235759,
-      -82.364431
+      34.07442621,
+      -83.87346609
     ]
   },
   {
@@ -1082,7 +1137,7 @@
     "city": "West Point",
     "station": "WRLA-AM",
     "frequency": "1490",
-    "dma": "Columbus, GA",
+    "dma": "",
     "coordinates": [
       32.87612534,
       -85.1842804
@@ -1093,7 +1148,7 @@
     "city": "West Point",
     "station": "W222CT-FM",
     "frequency": "92.3",
-    "dma": "Columbus, GA",
+    "dma": "",
     "coordinates": [
       32.87612534,
       -85.1842804
@@ -1104,7 +1159,7 @@
     "city": "Winder",
     "station": "WJBB-AM",
     "frequency": "1300",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.99081039,
       -83.72309113
@@ -1115,7 +1170,7 @@
     "city": "Winder",
     "station": "W296CX-FM",
     "frequency": "107.1",
-    "dma": "Atlanta",
+    "dma": "",
     "coordinates": [
       33.99081039,
       -83.72309113
@@ -1126,21 +1181,21 @@
     "city": "Greenville-Central City",
     "station": "WPDQ-FM",
     "frequency": "91.3",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       37.20114899,
       -87.17854309
     ]
   },
   {
-    "state": "KY",
-    "city": "Louisville",
+    "state": "IN",
+    "city": "Jeffersonville",
     "station": "WXVW-AM",
     "frequency": "1450",
-    "dma": "Louisville, KY",
+    "dma": "",
     "coordinates": [
-      38.19937515,
-      -85.65352631
+      38.29885864,
+      -85.72663116
     ]
   },
   {
@@ -1148,10 +1203,32 @@
     "city": "Louisville",
     "station": "W241CK-FM",
     "frequency": "96.1",
-    "dma": "Louisville, KY",
+    "dma": "",
     "coordinates": [
       38.19937515,
       -85.65352631
+    ]
+  },
+  {
+    "state": "MS",
+    "city": "Jackson",
+    "station": "WYAB-FM",
+    "frequency": "103.9",
+    "dma": "",
+    "coordinates": [
+      32.30289841,
+      -90.18348694
+    ]
+  },
+  {
+    "state": "MS",
+    "city": "Pascagoula-Moss Point",
+    "station": "WPMO-AM",
+    "frequency": "1580",
+    "dma": "    ",
+    "coordinates": [
+      30.3678205,
+      -88.5564435
     ]
   },
   {
@@ -1159,7 +1236,7 @@
     "city": "Asheville",
     "station": "WPEK-AM",
     "frequency": "880",
-    "dma": "Greenville-Spartanburg",
+    "dma": "",
     "coordinates": [
       35.59591293,
       -82.5500412
@@ -1170,7 +1247,7 @@
     "city": "Asheville",
     "station": "W225CJ-FM",
     "frequency": "92.9",
-    "dma": "Greenville-Spartanburg",
+    "dma": "",
     "coordinates": [
       35.59591293,
       -82.5500412
@@ -1181,7 +1258,7 @@
     "city": "Charlotte",
     "station": "WZGV-AM",
     "frequency": "730",
-    "dma": "Charlotte-Gastonia",
+    "dma": "",
     "coordinates": [
       35.2237854,
       -80.84114075
@@ -1192,7 +1269,7 @@
     "city": "Charlotte",
     "station": "W248CO-FM",
     "frequency": "97.5",
-    "dma": "Charlotte-Gastonia",
+    "dma": "",
     "coordinates": [
       35.2237854,
       -80.84114075
@@ -1203,7 +1280,7 @@
     "city": "Cherryville",
     "station": "WCSL-AM",
     "frequency": "1590",
-    "dma": "Charlotte-Gastonia",
+    "dma": "",
     "coordinates": [
       35.38177109,
       -81.38074493
@@ -1212,9 +1289,9 @@
   {
     "state": "NC",
     "city": "Cherryville",
-    "station": "W222CO-FM",
-    "frequency": "92.3",
-    "dma": "Charlotte-Gastonia",
+    "station": "W225DL-FM",
+    "frequency": "92.9",
+    "dma": "",
     "coordinates": [
       35.38177109,
       -81.38074493
@@ -1222,54 +1299,10 @@
   },
   {
     "state": "NC",
-    "city": "Lincolnton",
-    "station": "WLON-AM",
-    "frequency": "1050",
-    "dma": "Charlotte-Gastonia",
-    "coordinates": [
-      35.47642899,
-      -81.24012756
-    ]
-  },
-  {
-    "state": "NC",
-    "city": "Lincolnton",
-    "station": "W298CK-FM",
-    "frequency": "107.5",
-    "dma": "Charlotte-Gastonia",
-    "coordinates": [
-      35.47642899,
-      -81.24012756
-    ]
-  },
-  {
-    "state": "NC",
-    "city": "Rutherfordton",
-    "station": "WCAB-AM",
-    "frequency": "590",
-    "dma": "Greenville-Spartanburg",
-    "coordinates": [
-      35.36708832,
-      -81.95733643
-    ]
-  },
-  {
-    "state": "NC",
-    "city": "Rutherfordton",
-    "station": "W265DW-FM",
-    "frequency": "100.9",
-    "dma": "Greenville-Spartanburg",
-    "coordinates": [
-      35.36708832,
-      -81.95733643
-    ]
-  },
-  {
-    "state": "NC",
     "city": "Shelby",
     "station": "WOHS-AM",
     "frequency": "1390",
-    "dma": "Charlotte-Gastonia",
+    "dma": "",
     "coordinates": [
       35.29193115,
       -81.54022217
@@ -1280,7 +1313,7 @@
     "city": "Shelby",
     "station": "W268CU-FM",
     "frequency": "101.5",
-    "dma": "Charlotte-Gastonia",
+    "dma": "",
     "coordinates": [
       35.29193115,
       -81.54022217
@@ -1288,10 +1321,54 @@
   },
   {
     "state": "NC",
+    "city": "Lincolnton",
+    "station": "WLON-AM",
+    "frequency": "1050",
+    "dma": "",
+    "coordinates": [
+      35.47642899,
+      -81.24012756
+    ]
+  },
+  {
+    "state": "NC",
+    "city": "Lincolnton",
+    "station": "W298CK-FM",
+    "frequency": "107.5",
+    "dma": "",
+    "coordinates": [
+      35.47642899,
+      -81.24012756
+    ]
+  },
+  {
+    "state": "NC",
+    "city": "Rutherfordton",
+    "station": "WCAB-AM",
+    "frequency": "590",
+    "dma": "",
+    "coordinates": [
+      35.36708832,
+      -81.95733643
+    ]
+  },
+  {
+    "state": "NC",
+    "city": "Rutherfordton",
+    "station": "W265DW-FM",
+    "frequency": "100.9",
+    "dma": "",
+    "coordinates": [
+      35.36708832,
+      -81.95733643
+    ]
+  },
+  {
+    "state": "NC",
     "city": "Waynesville",
     "station": "WMXF-AM",
     "frequency": "1400",
-    "dma": "Greenville-Spartanburg",
+    "dma": "",
     "coordinates": [
       35.4812088,
       -82.9940033
@@ -1299,10 +1376,21 @@
   },
   {
     "state": "SC",
+    "city": "Abbeville",
+    "station": "WZLA-FM",
+    "frequency": "92.9",
+    "dma": "",
+    "coordinates": [
+      34.17910385,
+      -82.37776947
+    ]
+  },
+  {
+    "state": "SC",
     "city": "Aiken",
     "station": "WGUS-FM",
     "frequency": "102.7",
-    "dma": "Augusta, GA",
+    "dma": "",
     "coordinates": [
       33.56387329,
       -81.71615601
@@ -1313,10 +1401,10 @@
     "city": "Camden-Lugoff",
     "station": "WCAM-AM",
     "frequency": "1590",
-    "dma": "Columbia, SC",
+    "dma": "",
     "coordinates": [
-      34.2169774,
-      -80.59259745
+      34.2159525,
+      -80.5920641
     ]
   },
   {
@@ -1324,10 +1412,10 @@
     "city": "Camden-Lugoff",
     "station": "W254DQ-FM",
     "frequency": "98.7",
-    "dma": "Columbia, SC",
+    "dma": "",
     "coordinates": [
-      34.2169774,
-      -80.59259745
+      34.2159525,
+      -80.5920641
     ]
   },
   {
@@ -1335,10 +1423,10 @@
     "city": "Camden-Lugoff",
     "station": "WPUB-FM",
     "frequency": "102.7",
-    "dma": "Columbia, SC",
+    "dma": "",
     "coordinates": [
-      34.2169774,
-      -80.59259745
+      34.2159525,
+      -80.5920641
     ]
   },
   {
@@ -1346,7 +1434,7 @@
     "city": "Charleston",
     "station": "WTMZ-AM",
     "frequency": "910",
-    "dma": "Charleston, SC",
+    "dma": "",
     "coordinates": [
       32.78306198,
       -79.93444061
@@ -1357,7 +1445,7 @@
     "city": "Charleston",
     "station": "W234CV-FM",
     "frequency": "94.7",
-    "dma": "Charleston, SC",
+    "dma": "",
     "coordinates": [
       32.78306198,
       -79.93444061
@@ -1368,18 +1456,7 @@
     "city": "Columbia",
     "station": "WISW-AM",
     "frequency": "1320",
-    "dma": "Columbia, SC",
-    "coordinates": [
-      34.00928497,
-      -81.03709412
-    ]
-  },
-  {
-    "state": "SC",
-    "city": "Columbia",
-    "station": "WNKT-FM",
-    "frequency": "107.5",
-    "dma": "Columbia, SC",
+    "dma": "",
     "coordinates": [
       34.00928497,
       -81.03709412
@@ -1390,7 +1467,7 @@
     "city": "Florence",
     "station": "WOLH-AM",
     "frequency": "1230",
-    "dma": "Florence, SC",
+    "dma": "",
     "coordinates": [
       34.19577026,
       -79.76197052
@@ -1401,32 +1478,10 @@
     "city": "Florence",
     "station": "W242CB-FM",
     "frequency": "96.3",
-    "dma": "Florence, SC",
+    "dma": "",
     "coordinates": [
       34.19577026,
       -79.76197052
-    ]
-  },
-  {
-    "state": "SC",
-    "city": "Florence",
-    "station": "WSIM-HD2",
-    "frequency": "93.7",
-    "dma": "Florence, SC",
-    "coordinates": [
-      34.19577026,
-      -79.76197052
-    ]
-  },
-  {
-    "state": "SC",
-    "city": "Hilton Head Island",
-    "station": "W224DH-FM",
-    "frequency": "92.7",
-    "dma": "Savannah, GA",
-    "coordinates": [
-      32.2154007,
-      -80.74756622
     ]
   },
   {
@@ -1434,7 +1489,7 @@
     "city": "McClellanville",
     "station": "WTMZ-FM",
     "frequency": "98.9",
-    "dma": "Charleston, SC",
+    "dma": "",
     "coordinates": [
       33.09283066,
       -79.46500397
@@ -1445,7 +1500,7 @@
     "city": "Spartanburg",
     "station": "WSPG-AM",
     "frequency": "1400",
-    "dma": "Greenville-Spartanburg",
+    "dma": "",
     "coordinates": [
       34.94791412,
       -81.93466187
@@ -1456,7 +1511,7 @@
     "city": "Spartanburg",
     "station": "W252DQ-FM",
     "frequency": "98.3",
-    "dma": "Greenville-Spartanburg",
+    "dma": "",
     "coordinates": [
       34.94791412,
       -81.93466187
@@ -1467,7 +1522,7 @@
     "city": "Union",
     "station": "WBCU-AM",
     "frequency": "1460",
-    "dma": "Greenville-Spartanburg",
+    "dma": "",
     "coordinates": [
       34.72129059,
       -81.6260376
@@ -1478,7 +1533,7 @@
     "city": "Union",
     "station": "W278BE-FM",
     "frequency": "103.5",
-    "dma": "Greenville-Spartanburg",
+    "dma": "",
     "coordinates": [
       34.72129059,
       -81.6260376
@@ -1489,7 +1544,7 @@
     "city": "Chattanooga",
     "station": "WALV-FM",
     "frequency": "95.3",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       35.04575729,
       -85.30828857
@@ -1498,20 +1553,9 @@
   {
     "state": "TN",
     "city": "Cleveland",
-    "station": "WCLE-AM",
-    "frequency": "1570",
-    "dma": "Chattanooga, TN",
-    "coordinates": [
-      35.15986633,
-      -84.87550354
-    ]
-  },
-  {
-    "state": "TN",
-    "city": "Cleveland",
-    "station": "W256DQ-FM",
-    "frequency": "99.1",
-    "dma": "Chattanooga, TN",
+    "station": "W267BI",
+    "frequency": "101.3",
+    "dma": "",
     "coordinates": [
       35.15986633,
       -84.87550354
@@ -1522,7 +1566,7 @@
     "city": "Cleveland",
     "station": "WCLE-FM",
     "frequency": "104.1",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       35.15986633,
       -84.87550354
@@ -1530,32 +1574,10 @@
   },
   {
     "state": "TN",
-    "city": "Cookville",
-    "station": "WKXD-HD3",
-    "frequency": "106.9",
-    "dma": "Nashville, TN",
-    "coordinates": [
-      36.15658951,
-      -85.50101471
-    ]
-  },
-  {
-    "state": "TN",
-    "city": "Cookville",
-    "station": "W282AG-FM",
-    "frequency": "104.7",
-    "dma": "Nashville, TN",
-    "coordinates": [
-      36.15658951,
-      -85.50101471
-    ]
-  },
-  {
-    "state": "TN",
     "city": "Columbia",
     "station": "WKRM-AM",
     "frequency": "1340",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       35.61621475,
       -87.04875183
@@ -1566,7 +1588,7 @@
     "city": "Columbia",
     "station": "W279DL-FM",
     "frequency": "103.7",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       35.61621475,
       -87.04875183
@@ -1574,13 +1596,24 @@
   },
   {
     "state": "TN",
-    "city": "Jackson",
-    "station": "WTJK-FM",
-    "frequency": "105.3",
-    "dma": "Jackson, TN",
+    "city": "Cookeville",
+    "station": "WKXD-HD3",
+    "frequency": "106.9",
+    "dma": "",
     "coordinates": [
-      35.61434555,
-      -88.81938171
+      36.15658951,
+      -85.50101471
+    ]
+  },
+  {
+    "state": "TN",
+    "city": "Cookeville",
+    "station": "W282AG-FM",
+    "frequency": "104.7",
+    "dma": "",
+    "coordinates": [
+      36.15658951,
+      -85.50101471
     ]
   },
   {
@@ -1588,10 +1621,10 @@
     "city": "Johnson City-Kingsport-Bristol",
     "station": "WPWT-AM",
     "frequency": "870",
-    "dma": "Johnson City-Kingsport",
+    "dma": "",
     "coordinates": [
-      36.59218597,
-      -82.18887329
+      36.31675171,
+      -82.38164267
     ]
   },
   {
@@ -1599,10 +1632,10 @@
     "city": "Johnson City-Kingsport-Bristol",
     "station": "W242CQ-FM",
     "frequency": "96.3",
-    "dma": "Johnson City-Kingsport",
+    "dma": "",
     "coordinates": [
-      36.59218597,
-      -82.18887329
+      36.31675171,
+      -82.38164267
     ]
   },
   {
@@ -1610,43 +1643,10 @@
     "city": "Johnson City-Kingsport-Bristol",
     "station": "W264BY",
     "frequency": "100.7",
-    "dma": "Johnson City-Kingsport",
+    "dma": "",
     "coordinates": [
-      36.59218597,
-      -82.18887329
-    ]
-  },
-  {
-    "state": "TN",
-    "city": "Lawrenceburg",
-    "station": "WDXE-AM",
-    "frequency": "1370",
-    "dma": "Nashville, TN",
-    "coordinates": [
-      35.25134659,
-      -87.32650757
-    ]
-  },
-  {
-    "state": "TN",
-    "city": "Lawrenceburg",
-    "station": "W237FD-FM",
-    "frequency": "95.3",
-    "dma": "Nashville, TN",
-    "coordinates": [
-      35.25134659,
-      -87.32650757
-    ]
-  },
-  {
-    "state": "TN",
-    "city": "Lawrenceburg",
-    "station": "W287AA",
-    "frequency": "105.3",
-    "dma": "Nashville, TN",
-    "coordinates": [
-      35.25134659,
-      -87.32650757
+      36.31675171,
+      -82.38164267
     ]
   },
   {
@@ -1654,7 +1654,7 @@
     "city": "Lewisburg",
     "station": "WJJM-AM",
     "frequency": "1490",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       35.45099258,
       -86.78890991
@@ -1665,7 +1665,7 @@
     "city": "Lewisburg",
     "station": "W223CY-FM",
     "frequency": "92.5",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       35.45099258,
       -86.78890991
@@ -1676,7 +1676,7 @@
     "city": "Loudon",
     "station": "WLOD-AM",
     "frequency": "1140",
-    "dma": "Knoxville, TN",
+    "dma": "",
     "coordinates": [
       35.7340889,
       -84.34627533
@@ -1687,7 +1687,7 @@
     "city": "Loudon",
     "station": "W284DC-FM",
     "frequency": "104.7",
-    "dma": "Knoxville, TN",
+    "dma": "",
     "coordinates": [
       35.7340889,
       -84.34627533
@@ -1698,7 +1698,7 @@
     "city": "Manchester",
     "station": "WMSR-AM",
     "frequency": "1320",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       35.47732925,
       -86.08087158
@@ -1709,7 +1709,7 @@
     "city": "Manchester",
     "station": "W300BL-FM",
     "frequency": "107.9",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       35.47732925,
       -86.08087158
@@ -1720,10 +1720,10 @@
     "city": "Murfreesboro-Smyrna",
     "station": "WGNS-AM",
     "frequency": "1450",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
-      35.84442758,
-      -86.46192781
+      35.84596252,
+      -86.39144897
     ]
   },
   {
@@ -1731,10 +1731,10 @@
     "city": "Murfreesboro-Smyrna",
     "station": "W263AI-FM",
     "frequency": "100.5",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
-      35.84442758,
-      -86.46192781
+      35.84596252,
+      -86.39144897
     ]
   },
   {
@@ -1742,10 +1742,10 @@
     "city": "Murfreesboro-Smyrna",
     "station": "W270AF-FM",
     "frequency": "101.9",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
-      35.84442758,
-      -86.46192781
+      35.84596252,
+      -86.39144897
     ]
   },
   {
@@ -1753,10 +1753,10 @@
     "city": "Nashville-Brentwood",
     "station": "WNSR-AM",
     "frequency": "560",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
-      36.1663475,
-      -86.77905273
+      36.16222,
+      -86.77443695
     ]
   },
   {
@@ -1764,21 +1764,21 @@
     "city": "Nashville-Brentwood-Franklin",
     "station": "W240CA-FM",
     "frequency": "95.9",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
-      36.0364055,
-      -86.7947915
+      36.03431554,
+      -86.7953533
     ]
   },
   {
     "state": "TN",
     "city": "Nashville-Smyrna",
-    "station": "W300DO",
+    "station": "W300DO-FM",
     "frequency": "107.9",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
-      35.92754565,
-      -86.4709539
+      35.927635,
+      -86.4708085
     ]
   },
   {
@@ -1786,7 +1786,7 @@
     "city": "Pigeon Forge",
     "station": "WPFT-FM",
     "frequency": "106.3",
-    "dma": "Knoxville, TN",
+    "dma": "",
     "coordinates": [
       35.79328156,
       -83.55883789
@@ -1797,7 +1797,7 @@
     "city": "Sevierville",
     "station": "WSEV-FM",
     "frequency": "105.5",
-    "dma": "Knoxville, TN",
+    "dma": "",
     "coordinates": [
       35.86837769,
       -83.56298065
@@ -1808,7 +1808,7 @@
     "city": "Sevierville",
     "station": "W281BQ-FM",
     "frequency": "104.1",
-    "dma": "Knoxville, TN",
+    "dma": "",
     "coordinates": [
       35.86837769,
       -83.56298065
@@ -1819,7 +1819,7 @@
     "city": "Tullahoma",
     "station": "W294CV-FM",
     "frequency": "106.7",
-    "dma": "Nashville, TN",
+    "dma": "",
     "coordinates": [
       35.3697319,
       -86.21862793
@@ -1830,7 +1830,7 @@
     "city": "Winchester",
     "station": "WCDT-AM",
     "frequency": "1340",
-    "dma": "Chattanooga, TN",
+    "dma": "",
     "coordinates": [
       35.18708038,
       -86.11154175
@@ -1841,7 +1841,7 @@
     "city": "Richmond",
     "station": "WURV-HD2",
     "frequency": "103.7",
-    "dma": "Richmond, VA",
+    "dma": "",
     "coordinates": [
       37.54076004,
       -77.43392944
@@ -1852,7 +1852,7 @@
     "city": "Richmond",
     "station": "W291CL-FM",
     "frequency": "106.1",
-    "dma": "Richmond, VA",
+    "dma": "",
     "coordinates": [
       37.54076004,
       -77.43392944
@@ -1863,7 +1863,7 @@
     "city": "Roanoke",
     "station": "WFJX-AM",
     "frequency": "910",
-    "dma": "Roanoke-Lynchburg",
+    "dma": "",
     "coordinates": [
       37.27113342,
       -79.9390564
@@ -1874,7 +1874,7 @@
     "city": "Roanoke",
     "station": "W282CK-FM",
     "frequency": "104.3",
-    "dma": "Roanoke-Lynchburg",
+    "dma": "",
     "coordinates": [
       37.27113342,
       -79.9390564
