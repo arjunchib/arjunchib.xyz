@@ -2,11 +2,11 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/braves.tsx";
 import * as $1 from "./routes/favicon.ts";
 import * as $2 from "./routes/index.tsx";
 import * as $3 from "./routes/pizza.tsx";
+import * as $4 from "./routes/poems/index.tsx";
 import * as $$0 from "./islands/BravesRadioLocator.tsx";
 import * as $$1 from "./islands/PizzaCalculator.tsx";
 
@@ -16,13 +16,13 @@ const manifest = {
     "./routes/favicon.ts": $1,
     "./routes/index.tsx": $2,
     "./routes/pizza.tsx": $3,
+    "./routes/poems/index.tsx": $4,
   },
   islands: {
     "./islands/BravesRadioLocator.tsx": $$0,
     "./islands/PizzaCalculator.tsx": $$1,
   },
   baseUrl: import.meta.url,
-  config,
 };
 
 export default manifest;

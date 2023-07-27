@@ -9,3 +9,9 @@ export function round(num: number, decimalPlaces = 0) {
   const base = Math.pow(10, decimalPlaces);
   return Math.round(num * base) / base;
 }
+
+export function isAfterHours() {
+  const now = new Date();
+  const hours = now.getHours();
+  return hours >= 0 && hours < 6;
+}

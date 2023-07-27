@@ -32,9 +32,9 @@ export default function BravesRadioLocator() {
     console.warn(`ERROR(${err.code}): ${err.message}`);
   };
 
-  useEffect(() => {
-    navigator.geolocation.getCurrentPosition(success, error);
-  }, []);
+  // useEffect(() => {
+  //   navigator.geolocation.getCurrentPosition(success, error);
+  // }, []);
 
   const rows = useComputed(() => {
     return networks.value?.slice(0, 20).map((n) => {
@@ -49,7 +49,16 @@ export default function BravesRadioLocator() {
     });
   });
 
-  return (
+  const button = (
+    <button
+      class="mt-2 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      onClick={() => navigator.geolocation.getCurrentPosition(success, error)}
+    >
+      Find nearest radio stations!
+    </button>
+  );
+
+  const list = (
     <div class="mt-3">
       <div
         class="w-full dark:bg-gray-900 rounded -mx-2 py-2 text-center font-mono text-xl font-bold h-12"
@@ -65,6 +74,8 @@ export default function BravesRadioLocator() {
       </table>
     </div>
   );
+
+  return coord.value ? list : button;
 }
 
 function distance(p1: [number, number], p2: [number, number]): number {
