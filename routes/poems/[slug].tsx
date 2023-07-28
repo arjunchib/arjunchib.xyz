@@ -2,17 +2,22 @@ import { Page } from "../../components/Page.tsx";
 import { isAfterHours } from "../../utils.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPost, Post } from "../../post.ts";
-import { CSS, render } from "$gfm";
+import { render } from "$gfm";
 
 type Props = Post | null;
+const headers = { "X-Robots-Tag": "noindex" };
 
 export const handler: Handlers<Props> = {
   async GET(_, ctx) {
     if (!isAfterHours()) {
-      return ctx.render(null, { "status": 403, statusText: "Forbidden" });
+      return ctx.render(null, {
+        "status": 403,
+        statusText: "Forbidden",
+        headers,
+      });
     }
     const post = await getPost("./routes/poems", ctx.params.slug);
-    return post ? ctx.render(post) : ctx.renderNotFound();
+    return post ? ctx.render(post, { headers }) : ctx.renderNotFound();
   },
 };
 
