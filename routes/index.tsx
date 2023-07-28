@@ -4,7 +4,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 
 export const handler: Handlers<boolean> = {
   GET(_, ctx) {
-    return ctx.render(!isAfterHours());
+    return ctx.render(isAfterHours());
   },
 };
 

@@ -20,7 +20,7 @@ export default function Poems(props: PageProps<Props>) {
   const icon = isAfterHours ? "📝" : "🔒";
   const poems = posts.map((post) => (
     <li>
-      <a href={post.slug}>
+      <a href={`./poems/${post.slug}`}>
         <span class="underline">{post.title}</span> {post.emoji}
       </a>
     </li>
