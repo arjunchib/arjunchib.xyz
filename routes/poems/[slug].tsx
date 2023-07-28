@@ -4,36 +4,42 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPost, Post } from "../../post.ts";
 import { render } from "$gfm";
 
-type Props = Post | null;
+type Props = Post | {
+  title: string;
+  emoji: string;
+};
+
 const headers = { "X-Robots-Tag": "noindex" };
+
+async function getPostOrPartial(slug: string) {
+  const post = await getPost("./routes/poems", slug);
+  if (!post) return null;
+  return isAfterHours() ? post : { title: post.title, emoji: post.emoji };
+}
 
 export const handler: Handlers<Props> = {
   async GET(_, ctx) {
-    if (!isAfterHours()) {
-      return ctx.render(null, {
-        "status": 403,
-        statusText: "Forbidden",
-        headers,
-      });
-    }
-    const post = await getPost("./routes/poems", ctx.params.slug);
+    const post = await getPostOrPartial(ctx.params.slug);
     return post ? ctx.render(post, { headers }) : ctx.renderNotFound();
   },
 };
 
 export default function Poems(props: PageProps<Props>) {
-  if (!props.data) {
+  const post = props.data;
+  if (!("content" in post)) {
     return (
-      <Page title="Forbidden" icon="🚫">
-        <div></div>
+      <Page title={post.title} icon={post.emoji}>
+        <p class="my-3">
+          Come back after midnight!
+        </p>
       </Page>
     );
   }
-  const { title, emoji, content } = props.data;
+  const { title, emoji, content } = post;
   return (
     <Page title={title} icon={emoji}>
       <div
-        class="mt-4 markdown-body prose prose-slate prose-invert"
+        class="mt-4 prose prose-slate prose-invert"
         dangerouslySetInnerHTML={{ __html: render(content) }}
       />
     </Page>

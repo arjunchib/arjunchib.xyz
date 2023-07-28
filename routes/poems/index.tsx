@@ -3,21 +3,16 @@ import { isAfterHours } from "../../utils.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPosts, Post } from "../../post.ts";
 
-type Props = {
-  isAfterHours: boolean;
-  posts: Post[];
-};
-
-export const handler: Handlers<Props> = {
+export const handler: Handlers<Post[]> = {
   async GET(_, ctx) {
     const posts = isAfterHours() ? await getPosts("./routes/poems") : [];
-    return ctx.render({ isAfterHours: isAfterHours(), posts });
+    return ctx.render(posts);
   },
 };
 
-export default function Poems(props: PageProps<Props>) {
-  const { isAfterHours, posts } = props.data;
-  const icon = isAfterHours ? "📝" : "🔒";
+export default function Poems(props: PageProps<Post[]>) {
+  const posts = props.data;
+  const icon = posts.length ? "📝" : "🔒";
   const poems = posts.map((post) => (
     <li>
       <a href={`./poems/${post.slug}`}>
@@ -26,13 +21,17 @@ export default function Poems(props: PageProps<Props>) {
     </li>
   ));
 
+  const poemNav = () => (
+    <nav class="pl-5">
+      <ul class="list-disc">{poems}</ul>
+    </nav>
+  );
+
   return (
     <Page title="Night Poems" icon={icon}>
-      <nav class="my-3 pl-5">
-        {props.data
-          ? <ul class="list-disc">{poems}</ul>
-          : <p>Come back after midnight!</p>}
-      </nav>
+      <div class="my-3">
+        {poems.length ? poemNav() : <p>Come back after midnight!</p>}
+      </div>
     </Page>
   );
 }
