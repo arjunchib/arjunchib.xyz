@@ -12,7 +12,7 @@ type Props = Post | {
 const headers = { "X-Robots-Tag": "noindex" };
 
 async function getPostOrPartial(slug: string) {
-  const post = await getPost("./routes/poems", slug);
+  const post = await getPost("./content/poems", slug);
   if (!post) return null;
   return isAfterHours() ? post : { title: post.title, emoji: post.emoji };
 }
@@ -40,7 +40,9 @@ export default function Poems(props: PageProps<Props>) {
     <Page title={title} icon={emoji}>
       <div
         class="mt-4 prose prose-slate prose-invert"
-        dangerouslySetInnerHTML={{ __html: render(content) }}
+        dangerouslySetInnerHTML={{
+          __html: render(content, { allowIframes: true }),
+        }}
       />
     </Page>
   );

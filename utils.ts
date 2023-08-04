@@ -11,6 +11,7 @@ export function round(num: number, decimalPlaces = 0) {
 }
 
 export function isAfterHours() {
+  return true;
   const now = new Date();
   const hours = now.getHours();
   return hours >= 0 && hours < 6;

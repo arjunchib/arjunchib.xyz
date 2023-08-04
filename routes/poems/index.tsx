@@ -5,7 +5,7 @@ import { getPosts, Post } from "../../post.ts";
 
 export const handler: Handlers<Post[]> = {
   async GET(_, ctx) {
-    const posts = isAfterHours() ? await getPosts("./routes/poems") : [];
+    const posts = isAfterHours() ? await getPosts("./content/poems") : [];
     return ctx.render(posts);
   },
 };
