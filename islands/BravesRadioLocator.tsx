@@ -2,7 +2,6 @@ import { useComputed, useSignal } from "@preact/signals";
 import radioNetworks from "../static/radio-networks.json" assert {
   type: "json",
 };
-import { useEffect } from "preact/hooks";
 
 type Network = typeof radioNetworks[0];
 
@@ -31,10 +30,6 @@ export default function BravesRadioLocator() {
   const error = (err: GeolocationPositionError) => {
     console.warn(`ERROR(${err.code}): ${err.message}`);
   };
-
-  // useEffect(() => {
-  //   navigator.geolocation.getCurrentPosition(success, error);
-  // }, []);
 
   const rows = useComputed(() => {
     return networks.value?.slice(0, 20).map((n) => {
