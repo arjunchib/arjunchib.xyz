@@ -1,16 +1,10 @@
 import { Page } from "../components/Page.tsx";
 import { isAfterHours } from "../utils.ts";
-import { Handlers, PageProps } from "$fresh/server.ts";
-
-export const handler: Handlers<boolean> = {
-  GET(_, ctx) {
-    return ctx.render(isAfterHours());
-  },
-};
+import { PageProps } from "$fresh/server.ts";
 
 export default function Home(props: PageProps<boolean>) {
-  const poemIcon = props.data ? "📝" : "🔒";
-  const poemTitle = props.data ? "open until 6am" : "open after midnight";
+  const poemIcon = isAfterHours() ? "📝" : "🔒";
+  const poemTitle = isAfterHours() ? "open until 6am" : "open after midnight";
 
   return (
     <Page title="Arjun’s World" icon="🌌" back={false}>
