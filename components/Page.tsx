@@ -6,7 +6,7 @@ interface PageProps {
   title: string;
   icon: string;
   back?: boolean;
-  children: JSX.Element;
+  children: JSX.Element | JSX.Element[];
 }
 
 export function Page(props: PageProps) {

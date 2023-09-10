@@ -1,11 +1,8 @@
 import { Page } from "../components/Page.tsx";
-import { isAfterHours } from "../utils.ts";
-import { PageProps } from "$fresh/server.ts";
+import AfterHours from "../islands/AfterHours.tsx";
+import NormalHours from "../islands/NormalHours.tsx";
 
-export default function Home(props: PageProps<boolean>) {
-  const poemIcon = isAfterHours() ? "📝" : "🔒";
-  const poemTitle = isAfterHours() ? "open until 6am" : "open after midnight";
-
+export default function Home() {
   return (
     <Page title="Arjun’s World" icon="🌌" back={false}>
       <nav class="my-3 pl-5">
@@ -21,9 +18,16 @@ export default function Home(props: PageProps<boolean>) {
             </a>
           </li>
           <li>
-            <a href="/poems" title={poemTitle}>
-              <span class="underline">Night Poems</span> {poemIcon}
-            </a>
+            <NormalHours>
+              <a href="/poems" title="open after midnight">
+                <span class="underline">Night Poems</span> 🔒
+              </a>
+            </NormalHours>
+            <AfterHours>
+              <a href="/poems" title="open until 6am">
+                <span class="underline">Night Poems</span> 📝
+              </a>
+            </AfterHours>
           </li>
         </ul>
       </nav>

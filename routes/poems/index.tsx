@@ -1,7 +1,8 @@
 import { Page } from "../../components/Page.tsx";
-import { isAfterHours } from "../../utils.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getPosts, Post } from "../../post.ts";
+import AfterHours from "../../islands/AfterHours.tsx";
+import NormalHours from "../../islands/NormalHours.tsx";
 
 export const handler: Handlers<Post[]> = {
   async GET(_, ctx) {
@@ -28,10 +29,19 @@ export default function Poems(props: PageProps<Post[]>) {
   };
 
   return (
-    <Page title="Night Poems" icon={isAfterHours() ? "📝" : "🔒"}>
-      <div class="my-3">
-        {isAfterHours() ? poemNav() : <p>Come back after midnight!</p>}
-      </div>
-    </Page>
+    <>
+      <NormalHours>
+        <Page title="Night Poems" icon="🔒">
+          <div class="my-3">
+            <p>Come back after midnight!</p>
+          </div>
+        </Page>
+      </NormalHours>
+      <AfterHours>
+        <Page title="Night Poems" icon="📝">
+          <div class="my-3">{poemNav()}</div>
+        </Page>
+      </AfterHours>
+    </>
   );
 }

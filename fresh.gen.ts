@@ -9,8 +9,10 @@ import * as $3 from "./routes/index.tsx";
 import * as $4 from "./routes/pizza.tsx";
 import * as $5 from "./routes/poems/[slug].tsx";
 import * as $6 from "./routes/poems/index.tsx";
-import * as $$0 from "./islands/BravesRadioLocator.tsx";
-import * as $$1 from "./islands/PizzaCalculator.tsx";
+import * as $$0 from "./islands/AfterHours.tsx";
+import * as $$1 from "./islands/BravesRadioLocator.tsx";
+import * as $$2 from "./islands/NormalHours.tsx";
+import * as $$3 from "./islands/PizzaCalculator.tsx";
 
 const manifest = {
   routes: {
@@ -23,8 +25,10 @@ const manifest = {
     "./routes/poems/index.tsx": $6,
   },
   islands: {
-    "./islands/BravesRadioLocator.tsx": $$0,
-    "./islands/PizzaCalculator.tsx": $$1,
+    "./islands/AfterHours.tsx": $$0,
+    "./islands/BravesRadioLocator.tsx": $$1,
+    "./islands/NormalHours.tsx": $$2,
+    "./islands/PizzaCalculator.tsx": $$3,
   },
   baseUrl: import.meta.url,
 };
