@@ -2,35 +2,36 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_app.tsx";
-import * as $1 from "./routes/braves.tsx";
-import * as $2 from "./routes/favicon.ts";
-import * as $3 from "./routes/index.tsx";
-import * as $4 from "./routes/pizza.tsx";
-import * as $5 from "./routes/poems/[slug].tsx";
-import * as $6 from "./routes/poems/index.tsx";
-import * as $$0 from "./islands/AfterHours.tsx";
-import * as $$1 from "./islands/BravesRadioLocator.tsx";
-import * as $$2 from "./islands/NormalHours.tsx";
-import * as $$3 from "./islands/PizzaCalculator.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $braves from "./routes/braves.tsx";
+import * as $favicon from "./routes/favicon.ts";
+import * as $index from "./routes/index.tsx";
+import * as $pizza from "./routes/pizza.tsx";
+import * as $poems_slug_ from "./routes/poems/[slug].tsx";
+import * as $poems_index from "./routes/poems/index.tsx";
+import * as $AfterHours from "./islands/AfterHours.tsx";
+import * as $BravesRadioLocator from "./islands/BravesRadioLocator.tsx";
+import * as $NormalHours from "./islands/NormalHours.tsx";
+import * as $PizzaCalculator from "./islands/PizzaCalculator.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_app.tsx": $0,
-    "./routes/braves.tsx": $1,
-    "./routes/favicon.ts": $2,
-    "./routes/index.tsx": $3,
-    "./routes/pizza.tsx": $4,
-    "./routes/poems/[slug].tsx": $5,
-    "./routes/poems/index.tsx": $6,
+    "./routes/_app.tsx": $_app,
+    "./routes/braves.tsx": $braves,
+    "./routes/favicon.ts": $favicon,
+    "./routes/index.tsx": $index,
+    "./routes/pizza.tsx": $pizza,
+    "./routes/poems/[slug].tsx": $poems_slug_,
+    "./routes/poems/index.tsx": $poems_index,
   },
   islands: {
-    "./islands/AfterHours.tsx": $$0,
-    "./islands/BravesRadioLocator.tsx": $$1,
-    "./islands/NormalHours.tsx": $$2,
-    "./islands/PizzaCalculator.tsx": $$3,
+    "./islands/AfterHours.tsx": $AfterHours,
+    "./islands/BravesRadioLocator.tsx": $BravesRadioLocator,
+    "./islands/NormalHours.tsx": $NormalHours,
+    "./islands/PizzaCalculator.tsx": $PizzaCalculator,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;
