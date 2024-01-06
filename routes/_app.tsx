@@ -9,7 +9,7 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/styles.css" />
         <title>arjunchib.xyz</title>
       </head>
-      <body>
+      <body class="dark:bg-slate-900">
         <Component />
       </body>
     </html>

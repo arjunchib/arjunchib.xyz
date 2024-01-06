@@ -31,7 +31,7 @@ export default function Home() {
           </li>
           <li>
             <a href="/obsidian">
-              <span class="underline">Obsidian</span> 🪨
+              <span class="underline">Obsidian</span> 💎
             </a>
           </li>
         </ul>

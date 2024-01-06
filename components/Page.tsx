@@ -39,7 +39,7 @@ export function Page(props: PageProps) {
         />
         <title>{props.title}</title>
       </Head>
-      <main class="dark:bg-gray-800 dark:text-white min-h-[100dvh] p-5 pt-3">
+      <main class="bg-cover bg-fixed dark:bg-[linear-gradient(rgba(31,41,55,0.66),rgba(31,41,55,0.99)),url('bg.svg')] dark:text-white min-h-[100dvh] p-5 pt-3">
         {header}
         <h1 class="font-serif text-2xl font-bold">
           {props.title} {props.icon}

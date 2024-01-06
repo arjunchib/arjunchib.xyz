@@ -2,7 +2,7 @@ import { Page } from "../components/Page.tsx";
 
 export default function Obsidian() {
   return (
-    <Page title="Obsidian" icon="🪨">
+    <Page title="Obsidian" icon="💎">
       <iframe
         src="https://publish.obsidian.md/arjun"
         frameborder="0"
