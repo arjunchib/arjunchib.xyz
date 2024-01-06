@@ -29,6 +29,11 @@ export default function Home() {
               </a>
             </AfterHours>
           </li>
+          <li>
+            <a href="/obsidian">
+              <span class="underline">Obsidian</span> 🪨
+            </a>
+          </li>
         </ul>
       </nav>
     </Page>

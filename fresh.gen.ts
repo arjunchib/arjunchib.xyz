@@ -6,6 +6,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $braves from "./routes/braves.tsx";
 import * as $favicon from "./routes/favicon.ts";
 import * as $index from "./routes/index.tsx";
+import * as $obsidian from "./routes/obsidian.tsx";
 import * as $pizza from "./routes/pizza.tsx";
 import * as $poems_slug_ from "./routes/poems/[slug].tsx";
 import * as $poems_index from "./routes/poems/index.tsx";
@@ -21,6 +22,7 @@ const manifest = {
     "./routes/braves.tsx": $braves,
     "./routes/favicon.ts": $favicon,
     "./routes/index.tsx": $index,
+    "./routes/obsidian.tsx": $obsidian,
     "./routes/pizza.tsx": $pizza,
     "./routes/poems/[slug].tsx": $poems_slug_,
     "./routes/poems/index.tsx": $poems_index,

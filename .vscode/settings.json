@@ -6,6 +6,7 @@
     "Autoprefix",
     "imagescript",
     "preact",
+    "tailwindcss",
     "twind"
   ]
 }
